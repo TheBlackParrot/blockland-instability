@@ -8,7 +8,7 @@ function initMapDB() {
 		new SimSet(MapDB);
 	}
 
-	%pattern = "Add-Ons/Haste_*/*.bls";
+	%pattern = "Add-Ons/Instability_*/*.bls";
 	%file = findFirstFile(%pattern);
 
 	while(isFile(%file)) {

@@ -1,4 +1,4 @@
-$Haste::SaveDir = "config/server/haste/save/";
+$Haste::SaveDir = "config/server/instability/save/";
 
 function MinigameSO::saveHasteGame(%this) {
 	%file = new FileObject();

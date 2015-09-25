@@ -10,6 +10,8 @@ if(!$Haste::Init) {
 	schedule(1, 0, loadMapPhase1);
 }
 
+$Haste::Version = "0.1.0-1";
+
 // !! ACM City needs spawns
 
 schedule(1000, 0, fixEnv);
